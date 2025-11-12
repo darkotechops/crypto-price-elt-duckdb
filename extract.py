@@ -13,12 +13,12 @@ def extract_data(api_url):
         print(f"Error during API extraction: {e}")
         return None
 
-# Example: CoinGecko API for Bitcoin price
+# CoinGecko API for Bitcoin price
 if __name__ == "__main__":
     COINGECKO_URL = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_last_updated_at=true"
     raw_data = extract_data(COINGECKO_URL)
 
-    # Save raw data to a JSON file for the next step (optional, but good practice)
+    # Save raw data to a JSON file 
     if raw_data:
         with open("raw_crypto_data.json", "w") as f:
             json.dump(raw_data, f, indent=4)

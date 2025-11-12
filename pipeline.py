@@ -9,7 +9,7 @@ load_dotenv()
 
 # --- CONFIGURATION ---
 # Note: Since CoinGecko is a public API, no key is needed here.
-# For a secured API, you would use: os.getenv("API_KEY")
+# For a secured API, we would use: os.getenv("API_KEY")
 API_URL = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_last_updated_at=true"
 RAW_DATA_FILE = 'raw_crypto_data.json' 
 

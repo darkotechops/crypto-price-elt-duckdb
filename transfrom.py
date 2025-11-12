@@ -2,7 +2,7 @@ import duckdb
 import os
 
 DATABASE_FILE = 'crypto_data.db'
-RAW_DATA_FILE = 'raw_crypto_data.json' # Temp file from extraction
+RAW_DATA_FILE = 'raw_crypto_data.json' 
 
 def load_raw_data():
     """Connects to DuckDB and loads the raw JSON file into a staging table."""
