@@ -1,0 +1,12 @@
+# Virtual Environment
+venv/
+
+# Local Database File (Your DuckDB file)
+*.db
+
+# Python Caches
+__pycache__/
+*.pyc
+
+# Local Config/Secrets (CRITICAL)
+.env
