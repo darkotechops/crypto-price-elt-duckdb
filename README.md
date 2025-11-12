@@ -58,7 +58,7 @@ Clone the repo and create a virtual environment, then install dependencies.
 On Windows PowerShell:
 
 ```powershell
-git clone [YOUR_REPOSITORY_URL]
+git clone https://github.com/darkotechops/crypto-price-elt-duckdb
 cd de_api_project
 python -m venv venv
 .\venv\Scripts\Activate.ps1    # PowerShell
@@ -70,7 +70,7 @@ python pipeline.py
 macOS / Linux (bash):
 
 ```bash
-git clone [YOUR_REPOSITORY_URL]
+git clone https://github.com/darkotechops/crypto-price-elt-duckdb
 cd de_api_project
 python3 -m venv venv
 source venv/bin/activate
